@@ -10,14 +10,18 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" type="image/png" href="src/favicon/icon.png" />
     <title>Adrian Inza-Cruz | Software Developer</title>
   </head>
-  <body>
+  <body id="home">
     <!-- Navbar -->
     <nav id="navbar">
-      <ul id="nav-container">
+      <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -32,13 +36,65 @@
         <h1 class="l-heading">
           Adrian Inza-Cruz
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-          voluptate pariatur alias esse, dolor omnis.
+        <p class="intro">
+          I like to build things
         </p>
-        <a href="#" class="btn">My Work</a>
+        <p>
+          <a href="#" class="btn">Resume</a>
+        </p>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/adrian-inza-cruz-8b261b173/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/ainzacruz" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
       </div>
     </header>
+    <!-- About Me -->
+    <section class="about">
+      <div class="about-container">
+        <div class="prof-pic bg-light p-2">
+          <img src="./src/images/profile.png" alt="profile picture" />
+        </div>
+        <div class="about-text p-2">
+          <h1 class="l-heading">
+            ABOUT
+          </h1>
+          <p>
+            Hey there! My name is Adrian. I'm a former civil engineer turned
+            full-stack web developer. I enjoy building things and bringing
+            concepts to life. Over the past 5 years, I worked comfortably as a
+            Civil Engineer - Creating aesthetically pleasing facades for
+            buildings that were occupied by companies such as Google, Linkedin,
+            and Stanford. Despite having a steady career and being able marvel at a completed structure I helped build, I wasn't passionate about the work I did and grew bored.
+           <p>
+            I was always fascinated by tech growing up and have always been around computers. My family always turned towards me for I.T. related issues and I always loved tinkering around with software. I decided to take a few online programming courses
+            to gauge my interest in programming. About 3 hours later, I knew that this was the career for me. I enjoyed the problem solving aspects of it as well as the struggle/challenge of getting code to run. I still throw my hands up in the air and scream "Yes!" everytime I figure something out.
+            So I enrolled in Thinkful/Bloc's full-stack web development track to accelerate my learning in hopes of switching careers. Check out some of the cool stuff I've built below!
+          </p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <secion id="skills" class="py-1">
+      <div class="skills-wrapper bg-dark">
+        <h1 class="l-heading text-center py-1">
+          Skills
+        </h1>
+        <div class="items py-1">
+              <img src="/src/images/javascript-original.svg" alt="javascript icon"> 
+              <img src="/src/images/html5-original.svg" alt="postgresql icon">
+              <img src="/src/images/css3-original.svg" alt="css3 icon">
+              <img src="/src/images/nodejs-original.svg" alt="node icon">
+              <img src="/src/images/react-original.svg" alt="react icon">
+              <img src="/src/images/postgresql-original.svg" alt="postgresql icon">
+      </div>
+    </secion>
 
     <script src="main.js"></script>
   </body>

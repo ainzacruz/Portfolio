@@ -95,22 +95,23 @@ body {
 #navbar {
   background: transparent;
   display: flex;
-  flex-direction: row-reverse;
   color: #fff;
   position: sticky;
+  flex-direction: row-reverse;
   top: 0;
   z-index: 1;
   padding: 1rem;
 }
 
 #navbar ul {
-  display: flex;
+  flex: 1;
   list-style: none;
-  align-items: center;
+  text-align: center;
 }
 
 #navbar ul li {
   display: inline-block;
+  padding-top: 1rem;
 }
 
 #navbar ul li a {

@@ -163,6 +163,8 @@ body {
   padding-bottom: 1rem;
 }
 
+/* Portfolio */
+
 /* Skills */
 
 #skills .items {
@@ -170,6 +172,10 @@ body {
   justify-content: space-evenly;
   padding: 2rem 6rem;
 }
+#skills .skills-wrapper h1 {
+  color: #5b7bb4;
+}
+
 #skills .skills-wrapper h1 {
   color: #5b7bb4;
 }

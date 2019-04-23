@@ -168,7 +168,7 @@ body {
 #skills .items {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 2rem;
+  padding: 2rem 6rem;
 }
 
 #clients .items img {

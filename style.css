@@ -18,9 +18,8 @@ body {
 }
 
 .container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 2rem;
+  width: 100%;
+  padding: 2rem 6rem;
   overflow: hidden;
 }
 
@@ -149,14 +148,14 @@ body {
 
 /* About Me */
 
-.about-container {
+#about .container {
   display: flex;
   background-color: #fff;
   color: #5b7bb4;
-  margin: 0 6rem;
+  width: 100%;
 }
 
-.about div {
+#about div {
   flex: 1;
 }
 

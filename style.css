@@ -170,9 +170,33 @@ body {
   justify-content: space-evenly;
   padding: 2rem 6rem;
 }
+#skills .skills-wrapper h1 {
+  color: #5b7bb4;
+}
 
 #clients .items img {
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* Footer */
+#footer .contact {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#footer .contact a {
+  padding: 0.5rem;
+  color: #fff;
+}
+#footer .contact a:hover {
+  color: #5b7bb4;
+}
+
+#footer .con-text {
+  text-align: center;
+  padding-top: 1rem;
 }

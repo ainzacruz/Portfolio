@@ -165,6 +165,22 @@ body {
 
 /* Portfolio */
 
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0 0.3);
+}
+
+.project a img {
+  width: 100%;
+  border: 3px #fff solid;
+}
+
+.project a img:hover {
+  opacity: 0.5;
+}
+
 /* Skills */
 
 #skills .items {
@@ -205,4 +221,34 @@ body {
 #footer .con-text {
   text-align: center;
   padding-top: 1rem;
+}
+
+/* Smartphone */
+@media (max-width: 1141px) {
+  #navbar {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about .container {
+    display: block;
+    padding: 0 3rem;
+  }
+  #about .container .prof-pic img {
+    display: none;
+  }
+
+  #about .container .about-text h1 {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 760px) {
+  #skills .skills-wrapper .items {
+    flex-direction: column;
+    padding: 1rem 3rem;
+  }
+  #skills .skills-wrapper .items img {
+    padding: 1rem 3rem;
+  }
 }

@@ -160,8 +160,8 @@ body {
   flex: 1;
 }
 
-.about .about-text h1 {
-  padding-bottom: 1rem;
+#about .about-text h1 {
+  padding-bottom: 2rem;
 }
 
 /* Portfolio */
@@ -298,10 +298,6 @@ body {
   }
   #about .container .prof-pic img {
     display: none;
-  }
-
-  #about .container .about-text h1 {
-    padding-bottom: 3rem;
   }
 
   .projects {

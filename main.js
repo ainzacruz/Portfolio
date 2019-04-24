@@ -12,3 +12,11 @@ $("#navbar a, .btn").on("click", function(event) {
     );
   }
 });
+
+window.addEventListener("scroll", function() {
+  if (window.scrollY > 150) {
+    document.querySelector("#navbar").style.opacity = 1;
+  } else {
+    document.querySelector("#navbar").style.opacity = 1;
+  }
+});

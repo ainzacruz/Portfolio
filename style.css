@@ -13,7 +13,7 @@ p {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
 }
 
@@ -127,7 +127,7 @@ body {
 
 /* Home */
 #home {
-  background: url("src/images/Home.jpg") no-repeat center center/cover;
+  background: url('src/images/Home.jpg') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -242,7 +242,6 @@ body {
   color: #5b7bb4;
 }
 .popup .description {
-  max-height: 30%;
   overflow: auto;
   color: #5b7bb4;
 }
